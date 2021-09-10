@@ -1,0 +1,45 @@
+
+
+.login{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    
+
+
+
+
+
+
+}
+
+.signin__title{
+    text-align:center;
+    font-weight:600;
+    color:rgba( 89, 149, 253, 0.95 );
+    text-decoration: underline rgba( 89, 149, 253, 0.95 );
+}
+
+.social-platforms{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .submitBtn{
+      margin-bottom:1em !important;
+  }
+
+
+  .reset{
+    font-weight:"bold";
+    text-align:"center";
+    font-size:"3em";
+    text-decoration:none;
+    text-align:center;
+    font-weight:600;
+    color:rgba( 89, 149, 253, 0.95 );
+  }
