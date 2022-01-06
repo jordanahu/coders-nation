@@ -28,8 +28,7 @@ import {
 
 
 const schema = yup.object().shape({
-  username:yup.string().required()
-    .matches(/^([^0-9]*)$/, "name should not contain numbers!")
+  username:yup.string().required("username field is required!")
     ,
     email:yup.string().email("must be a valid email!")
     .required("email field is required!"),
